@@ -1,0 +1,22 @@
+openapi: 3.0.3
+info:
+  title: Magic 8 Ball API
+  description: An API for retrieving answers simulating a magic 8 ball.
+  version: 1.0.0
+servers:
+  - url: 'https'
+paths:
+
+  /answers:
+    get:
+      responses:
+
+
+  /answers{id}:
+    get:
+      responses:
+
+
+
+
+  

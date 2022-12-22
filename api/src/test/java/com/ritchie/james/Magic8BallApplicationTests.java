@@ -1,4 +1,4 @@
-package com.ritchie.magic8ball;
+package com.ritchie.james;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

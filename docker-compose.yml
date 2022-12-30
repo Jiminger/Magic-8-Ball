@@ -1,0 +1,17 @@
+version: '3.8'
+
+services:
+  # Database
+  db:
+    container_name: mysql
+    image: mysql:latest
+    environment:
+      MYSQL_DATABASE: MagicEightBallDB
+      MYSQL_ROOT_PASSWORD: password
+    volumes:
+      - ./mysql:/docker-entrypoint-initdb.d
+    ports:
+      - '3306:3306'
+    expose:
+      - 3306
+    

@@ -9,7 +9,7 @@ services:
       MYSQL_DATABASE: MagicEightBallDB
       MYSQL_ROOT_PASSWORD: password
     volumes:
-      - ./mysql:/docker-entrypoint-initdb.d
+      - ./api/mysql:/docker-entrypoint-initdb.d
     ports:
       - '3306:3306'
     expose:
